@@ -1,9 +1,12 @@
 # xhyx
 win10自带输入法挂小鹤双拼再挂音形
 
-1. win10自带输入法挂小鹤双拼（本方法来自 散步de鹤）/RN
-右键开始→运行：Regedit（注册表编辑器）/N
+1. win10自带输入法挂小鹤双拼（本方法来自 散步de鹤）
+
+右键开始→运行：Regedit（注册表编辑器）
+
 定位计算机\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS
+
 右键新建字符串值
 数值名称：UserDefinedDoublePinyinScheme0
 数值数据：小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt
